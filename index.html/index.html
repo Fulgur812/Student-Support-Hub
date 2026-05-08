@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Student Support Hub</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+/* HEADER */
+.header {
+  background: linear-gradient(135deg, #1d4ed8, #3b82f6);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 42px;
+}
+
+.header p {
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: white;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.nav a {
+  text-decoration: none;
+  color: #1d4ed8;
+  font-weight: bold;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 900px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* HEADINGS */
+h2 {
+  color: #1d4ed8;
+}
+
+/* BUTTONS */
+button {
+  background: #1d4ed8;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 3px;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+/* INPUTS */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #1d4ed8;
+  color: white;
+  margin-top: 30px;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <h1>Student Support Hub</h1>
+  <p>Helping students understand, reflect, and get support</p>
+</div>
+
+<!-- NAV -->
+<div class="nav">
+  <a href="#impact">Impact</a>
+  <a href="#selfcheck">Self-Check</a>
+  <a href="#help">Get Help</a>
+  <a href="#feedback">Feedback</a>
+</div>
+
+<!-- IMPACT -->
+<div id="impact" class="card">
+  <h2>Understanding the Impact</h2>
+
+  <h3>Grades</h3>
+  <ul>
+    <li>Lower test scores</li>
+    <li>Missing assignments</li>
+    <li>Difficulty focusing</li>
+  </ul>
+
+  <h3>Mental Health</h3>
+  <ul>
+    <li>Anxiety or stress</li>
+    <li>Mood changes</li>
+    <li>Trouble sleeping</li>
+  </ul>
+
+  <h3>Attendance</h3>
+  <ul>
+    <li>Skipping school</li>
+    <li>Falling behind</li>
+  </ul>
+
+  <h3>Relationships</h3>
+  <ul>
+    <li>Conflict with friends or family</li>
+    <li>Loss of trust</li>
+  </ul>
+</div>
+
+<!-- SELF CHECK -->
+<div id="selfcheck" class="card">
+  <h2>Anonymous Self-Check</h2>
+  <p>Rate 1 (Never) to 5 (Often)</p>
+
+  <p>Use substances to cope with stress?</p>
+  <button>1</button><button>2</button><button>3</button><button>4</button><button>5</button>
+
+  <p>Sleep or energy affected?</p>
+  <button>1</button><button>2</button><button>3</button><button>4</button><button>5</button>
+
+  <p>Grades changed?</p>
+  <button>1</button><button>2</button><button>3</button><button>4</button><button>5</button>
+
+  <p>Peer pressure?</p>
+  <button>1</button><button>2</button><button>3</button><button>4</button><button>5</button>
+
+  <p>Concern from others?</p>
+  <button>1</button><button>2</button><button>3</button><button>4</button><button>5</button>
+
+  <p><strong>If you're concerned, talk to a trusted adult or counselor.</strong></p>
+</div>
+
+<!-- HELP -->
+<div id="help" class="card">
+  <h2>Get Help</h2>
+
+  <p><strong>988 Crisis Lifeline:</strong> Call or Text 988</p>
+  <p><strong>SAMHSA:</strong> 1-800-662-4357</p>
+  <p><strong>Teen Line:</strong> 310-855-4673 (Text TEEN to 839863)</p>
+  <p><strong>Emergency:</strong> 911</p>
+</div>
+
+<!-- FEEDBACK -->
+<div id="feedback" class="card">
+  <h2>Feedback</h2>
+
+  <input placeholder="Was this helpful?" />
+  <input placeholder="Did you learn something?" />
+  <textarea placeholder="What could improve?" rows="4"></textarea>
+
+  <button>Submit</button>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  Student Support Hub © 2026
+</div>
+
+</body>
+</html>
